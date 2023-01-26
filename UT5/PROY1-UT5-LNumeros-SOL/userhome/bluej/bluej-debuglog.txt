@@ -1,0 +1,50 @@
+BlueJ run started: Mon Dec 13 11:50:08 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Detected language "spanish" based on iso639-2 code "spa"
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\Ejercicios entregar\21-22\ENTRE-01-UT5-Lista-SOL
+1639392613205: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Tue Dec 14 17:33:21 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\Ejercicios entregar\21-22\ENTRE-01-UT5-Lista-SOL
+1639499602852: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (El sistema no puede encontrar el archivo especificado)
+1639499649020: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Fri Jan 14 13:46:06 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\Ejercicios entregar\21-22\ENTRE-01-UT5-Lista-SOL - copia
+1642164367521: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
