@@ -1,0 +1,67 @@
+@startuml
+class TextoTest {
+- Texto texto
++ void setUp()
++ void tearDown()
++ void testTextoCompleto()
++ void testEstaPalabra()
++ void testAddPalabras()
++ void testCapitalizarAlterna()
++ void testPalabrasConLetrasRepetidas()
++ void testBorrarDeFrecuenciaMenor()
++ void testCalcularFrecuenciaLongitud()
+}
+class Utilidades {
++ {static} String capitalizarAlterna(String)
++ {static} boolean tieneLetrasRepetidas(String)
++ {static} void main(String[])
+}
+class Texto {
+- Palabra[] palabras
+- int total
++ <<Create>> Texto(int)
++ boolean textoCompleto()
++ int totalPalabras()
++ void addPalabras(String)
++ int estaPalabra(String)
+- void insertarPalabraEnOrden(String)
++ String toString()
++ Palabra getPalabra(int)
++ String[] capitalizarAlterna()
++ String[] palabrasConLetrasRepetidas()
++ int[] calcularFrecuenciaLongitud()
++ int borrarDeFrecuenciaMenor(int)
++ void borrarPalabra(int)
++ void leerDeFichero(String)
+}
+class UtilidadesTest {
++ void testCapitalizarAlterna()
++ void testTieneLetrasRepetidas()
+}
+class Palabra {
+- String palabra
+- int frecuencia
++ <<Create>> Palabra(String)
++ String getPalabra()
++ int getFrecuencia()
++ void incrementar()
++ String toString()
++ {static} void main(String[])
+}
+class PalabraTest {
+- Palabra pal1
+- Palabra pal2
++ void setUp()
++ void testGetPalabra()
++ void testGetFrecuencia()
++ void tearDown()
+}
+class AppTexto {
++ {static} void main(String[])
+- {static} void testCapitalizarAlterna(Texto)
+- {static} void testPalabrasConLetrasRepetidas(Texto)
+- {static} void testBorrarDeFrecuenciaMenor(Texto)
+- {static} void testCalcularFrecuenciaLongitud(Texto)
+- {static} void separador()
+}
+@enduml
