@@ -5,6 +5,6 @@
 .bluej
 bin/*
 */out/*
-.idea/*
+*/.idea/*
 *.iml
 /bin/
