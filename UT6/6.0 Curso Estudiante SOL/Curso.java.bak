@@ -1,0 +1,140 @@
+
+/**
+ * Un objeto de esta clase mantiene una colección Arraylist de objetos estudiante
+ * 
+ */
+ 
+
+public class Curso
+{
+        
+        private               curso;
+
+        /**
+         * Constructor  
+         */
+        public Curso()
+        {
+               
+        }
+
+        /**
+         * Añade un estudiante a la colección
+         */
+        public void añadirEstudiante(String nombre, int nota)
+        {
+                
+        }
+        
+        /**
+         * nº de alumnos en el curso
+         */
+        public int cuantosAlumnos()
+        {
+               
+        }
+        
+        /**
+         * Representación en formato texto del curso
+         * 
+         */
+        public String toString()
+        {
+                
+            
+            
+        }
+        
+        /**
+         * Calcual la media de notas del curso. Utiliza for mejorado
+         */
+        public double getMedia()
+        {
+                
+        }
+        
+        /**
+         * Nombre del alumno con nota máxima. Con for mejorado
+         */ 
+        public String alumnoNotaMaximaV1()
+        {
+                
+        }
+        
+         /**
+         * Nombre del alumno con nota máxima. Utiliza un iterador
+         */ 
+        public String alumnoNotaMaximaV2()
+        {
+                
+        }
+        
+        /**
+         * Borrar el primer estudiante de la colección. Esta no puede estar vacía
+         */   
+        public void borrarPrimero()
+        {
+            
+        }
+ 
+        
+        /**
+         * Borrar los alumnos que han suspendido. Con un interador
+         */
+        public void borrarSuspensos()
+        {
+                
+        }
+        
+        /**
+         * 
+         * Devuelve true si hay algún notable. Con for mejorado  
+         */
+        public boolean hayAlgunNotable()
+        {
+             
+        }
+        
+          /**
+         * 
+         * cuantos estudiantes tienen un nombre que empieza por la cadena indicada
+         *  
+         */
+        public int  empiezanPor(String str)
+        {
+              
+        }
+        
+        /**
+         * 
+         * Devuelve el suspenso más alto del curso    
+         */
+        public int suspensoMasAlto()
+        {
+             
+        }
+        
+        /**
+         * 
+         * Calcula y devuelve el total de suspensos. Con un iterador.     
+         */
+        public int totalSuspensosIterador()
+        {
+            
+             
+        }
+        
+        
+        
+        /**
+         * 
+         * Calcula y devuelve como un string las dos notas más altas del curso.
+         * Con un while normal.
+         */
+        public String dosNotasMasAltas()
+        {
+             
+        }
+        
+        
+}
