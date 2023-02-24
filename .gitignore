@@ -4,7 +4,8 @@
 *.pkh
 .bluej
 bin/*
-*/out/*
-*/.idea/*
+**/out/*
+**/.idea/*
 *.iml
-/bin/
+**/bin/
+*.bak
