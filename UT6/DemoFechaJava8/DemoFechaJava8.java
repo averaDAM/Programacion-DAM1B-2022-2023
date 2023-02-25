@@ -5,6 +5,7 @@
  */
 import jdk.swing.interop.SwingInterOpUtils;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.LocalDateTime;
@@ -38,9 +39,13 @@ public class DemoFechaJava8
         System.out.println("Escribimos fecha formateada con un determinado patrón");
         System.out.println(hoy.format(DateTimeFormatter.ofPattern("dd MMMM yyyy")));
 
+        //Podemos "escapar" caracteres reservados dentro del formato encerrándolos entre comillas simples
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("d 'de' MMM. 'del' yy");
+        System.out.println("Patrón personalizado: " + hoy.format(df));
+
         //También podemos formatear con la función ofLocalizedDate de DateTimeFormatter
         // que nos genera formatos locales (de nuestro país) a partir del enumerado FormatStyle
-        DateTimeFormatter df = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+        df = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
         System.out.println("Patrón local SHORT: " + hoy.format(df));
         df = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
         System.out.println("Patrón local MEDIUM: " + hoy.format(df));
@@ -48,6 +53,12 @@ public class DemoFechaJava8
         System.out.println("Patrón local LONG: " + hoy.format(df));
         df = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL);
         System.out.println("Patrón local FULL: " + hoy.format(df));
+
+        //Podemos cambiar al formato local de otro país o región con la función withLocale
+        df = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.FRANCE);
+        System.out.println("Patrón Frances FULL: " + hoy.format(df));
+        df = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.CHINESE);
+        System.out.println("Patrón Chino FULL: " + hoy.format(df));
     }
 
     /**
@@ -112,8 +123,7 @@ public class DemoFechaJava8
         formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         String date = "16/08/2016";
         LocalDate localDate = LocalDate.parse(date, formatter);
-        System.out.println(date.toString()); 
-
+        System.out.println(date.toString());
 
     }
 
