@@ -1,0 +1,13 @@
+
+Nombre Pepe 
+Edad 34 años 
+Estado civil: S
+
+Nombre Luis 
+Edad 23 años 
+Estado civil: S
+
+Nombre Elena 
+Edad 22 años 
+Estado civil: S
+Total solteras:    3
